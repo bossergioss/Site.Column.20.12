@@ -1,0 +1,56 @@
+@import url("./bootstrap.css");
+
+body {
+    height: 100vh;
+    position: relative;
+}
+ 
+
+.container {
+    margin-top: 5%; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hfsize {
+    height: 70px;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+}
+
+header {
+    background-image: url("../img/header.jpg");
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.himg {
+    width: 60px;
+    height: 60px;
+}
+
+footer {
+    background-image: url("../img/footer.jpg");
+    position: fixed;
+    bottom: 0;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+p {
+    text-align: justify;
+}
